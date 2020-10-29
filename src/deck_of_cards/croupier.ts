@@ -1,12 +1,10 @@
 class Croupier {
     name: string
-    deck: Card[]
     bet: number
-    hand: number
+    hand: Card[]
 
-    constructor(name: string, deck: Card[]) {
+    constructor(name: string) {
         this.name = name
-        this.deck = deck
     }
 
     // distribute cards
@@ -21,6 +19,10 @@ class Croupier {
 
     // distribute cards to the croupier
     distributeSelf(): Card[] {
+
+    }
+
+    draw(): Card {
 
     }
 }
