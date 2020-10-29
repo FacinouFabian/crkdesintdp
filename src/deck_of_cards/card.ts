@@ -31,7 +31,7 @@ class Card {
     }
 
     // reveal the card
-    reveal(): Card[] {
+    reveal(): Card {
 
     }
 }

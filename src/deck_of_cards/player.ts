@@ -35,7 +35,7 @@ class Player {
     }
 
     // get out of the game if the hand is > 21
-    kill(): void {
+    kick(): void {
 
     }
 
